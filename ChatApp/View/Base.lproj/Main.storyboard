@@ -265,6 +265,7 @@
                     <connections>
                         <outlet property="containerViewHeightConstraint" destination="UpG-x2-4bv" id="v5C-Su-zgI"/>
                         <outlet property="inputTextField" destination="jhE-Ji-eiV" id="Rd1-zK-Scb"/>
+                        <outlet property="sendButton" destination="UEe-fV-cIZ" id="Aj4-YO-jnU"/>
                         <outlet property="tableView" destination="8CW-U7-B1a" id="Loq-lu-YNa"/>
                     </connections>
                 </viewController>
