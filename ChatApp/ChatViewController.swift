@@ -7,7 +7,7 @@
 
 import UIKit
 import Firebase
-import FirebaseStorage
+
 
 class ChatViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
@@ -22,7 +22,7 @@ class ChatViewController: UIViewController, UIImagePickerControllerDelegate & UI
         
         let tapOnTableView = UITapGestureRecognizer(target: self, action: #selector(tappedOnTableView))
         tableView.addGestureRecognizer(tapOnTableView)
-        // Do any additional setup after loading the view.
+    
     }
     
     @IBAction func signOutPressed(_ sender: Any) {
